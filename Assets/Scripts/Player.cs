@@ -125,4 +125,10 @@ public class Player : MonoBehaviour
             return false;
     }
 
+    // Getter for the player number
+    public playerNum GetPlayerNum()
+    {
+        return playerNumber;
+    }
+
 }
